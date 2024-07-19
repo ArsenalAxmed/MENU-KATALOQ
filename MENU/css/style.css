@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon {
+    width: 28px;
+    height: 29.98px;
+}
+
+.food {
+    color: #F17228;
+    margin-left: 10px;
+}
+
+.wagon {
+    color: #FFB30E;
+    margin-left: 10px;
+}
+
+.deliver-to {
+    color: #424242;
+    margin-left: 20px;
+}
+
+.small-icon {
+    width: 14px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.current-location {
+    color: #424242;
+    width: 141px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.location {
+    color: #424242;
+    width: 300px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.search-icon {
+    width: 18px;
+    height: 18px;
+    color: #FFB30E;
+    margin-left: 20px;
+}
+
+.search-food {
+    color: #424242;
+    width: 98px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.button-icon {
+    width: 18px;
+    height: 18px;
+    color: #FFB800;
+}
+
+.login-text {
+    color: #FFB800;
+    width: 44px;
+    height: 18px;
+    margin-left: 5px;
+}
+
+.banner {
+    width: 1920px;
+    height: 661px;
+    background-color: #FFB800;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    position: relative;
+}
+.banner-title {
+    width: 671px;
+    height: 88px;
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.banner-text {
+    margin-right: 20px;
+}
+
+.banner-subtitle {
+    width: 530px;
+    height: 26px;
+    color: #504F4F;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    width: 497.14px;
+    height: 497.14px;
+    margin-left: 20px;
+}
